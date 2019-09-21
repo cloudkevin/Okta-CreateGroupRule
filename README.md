@@ -7,5 +7,5 @@ Group A (AD Group) has 5 members. Group B is created as an Okta group and linked
 
 
 ## Script Requirements:
-HOST = 'YOUR_DOMAIN.okta.com'
+HOST = 'YOUR_DOMAIN.okta.com'  
 APITOKEN = 'YOUR_TOKEN'
