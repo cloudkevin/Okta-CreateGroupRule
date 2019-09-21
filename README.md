@@ -6,6 +6,6 @@ When the 'Enhance Group Push' feature is enabled with Active Directory and Okta,
 Group A (AD Group) has 5 members. Group B is created as an Okta group and linked with Group A. Once this happens Group B will be the only group visible in the GUI but will have 0 members. To get proper visibility back you can create Group C and use a Group Rule to pull the members of Group A (hidden in the GUI) into your Okta Group B. When viewing the group members you can differentiate between the two by looking at their group assignment reason.
 
 
-#Script Requirements:
+## Script Requirements:
 HOST = 'YOUR_DOMAIN.okta.com'
 APITOKEN = 'YOUR_TOKEN'
