@@ -1,5 +1,4 @@
 # Okta-CreateGroupRule
-This is used for creating group rules in Okta when Group Push Enhanced is enabled
 
 When the 'Enhance Group Push' feature is enabled with Active Directory and Okta, all AD groups dissappear from the GUI. This means that you have no visibility into preexisting AD group membership. Unfortunately even making an API call does not uncover these groups, however Okta Support does have visibility into these. If you contact Okta Support you can get the IDs for each AD group that is now hidden, and from there can use this script to create Group Rules based off of those groups.
 
